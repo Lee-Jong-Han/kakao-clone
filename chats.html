@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>채팅 목록</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header_top">
+        <div class="header_column">
+          <i class="fa fa-plane" aria-hidden="true"></i>
+          <i class="fa fa-wifi" aria-hidden="true"></i>
+        </div>
+        <div class="header_column"><span class="header_time">18:38</span></div>
+        <div class="header_column">
+          <i class="fa fa-moon-o" aria-hidden="true"></i>
+          <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
+          <span class="header_battery"
+            >66% <i class="fa fa-battery-full" aria-hidden="true"></i
+          ></span>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="header_column"><span class="header_text">Edit</span></div>
+        <div class="header_column">
+          <span class="header_text"
+            >채팅 목록<i class="fa fa-caret-down" aria-hidden="true"></i
+          ></span>
+        </div>
+      </div>
+    </header>
+
+    <main class="chats">
+      <div class="search-bar">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="친구 찾기, 채팅 목록, 플러스친구" />
+      </div>
+
+      <ul class="chats__list">
+        <li class="chats__chat">
+          <div class="chat__content">
+            <img src="images/avatar.jpg" />
+            <div class="chat__preview">
+              <h3 class="chat__user">린</h3>
+              <span class="chat_last-message"
+                >Hello! this is test message.</span
+              >
+            </div>
+          </div>
+          <span class="chat__date-time">15:55</span>
+        </li>
+        <li class="chats__chat">
+          <div class="chat__content">
+            <img src="images/avatar.jpg" />
+            <div class="chat__preview">
+              <h3 class="chat__user">카카오톡</h3>
+              <span class="chat_last-message"
+                >You logged into KakaoTakl PC from the PC</span
+              >
+            </div>
+          </div>
+          <span class="chat__date-time">Jul.18</span>
+        </li>
+      </ul>
+      <div class="chat-btn"><i class="fa fa-coment"></i></div>
+    </main>
+
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar_tab">
+        <i class="fa fa-user"></i> <span class="tab-bar_title">친구</span>
+      </a>
+      <a href="chats.html" class="tab-bar_tab  tab-bar_tab--selected">
+        <i class="fa fa-comment"></i>
+        <span class="tab-bar_title">채팅목록</span>
+      </a>
+      <a href="find.html" class="tab-bar_tab">
+        <i class="fa fa-search"></i> <span class="tab-bar_title">찾기</span>
+      </a>
+      <a href="more.html" class="tab-bar_tab">
+        <i class="fa fa-ellipsis-h"></i>
+        <span class="tab-bar_title">더보기</span>
+      </a>
+    </nav>
+  </body>
+</html>
