@@ -1,0 +1,47 @@
+.top-header--transparent {
+  background-color: transparent;
+}
+.profile .profile__header {
+  height: 80vh;
+  background-color: #b27070;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.abc {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+.abc .profile__header-title {
+  font-weight: 600;
+}
+
+.abc img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.profile__container input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.profile__actions {
+  display: flex;
+}
+.profile__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}

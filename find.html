@@ -9,16 +9,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header_top">
-        <div class="header_column">
+        <div class="header__column">
           <i class="fa fa-plane" aria-hidden="true"></i>
           <i class="fa fa-wifi" aria-hidden="true"></i>
         </div>
-        <div class="header_column"><span class="header_time">18:38</span></div>
-        <div class="header_column">
+        <div class="header__column"><span class="header_time">18:38</span></div>
+        <div class="header__column">
           <i class="fa fa-moon-o" aria-hidden="true"></i>
           <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
           <span class="header_battery"
@@ -27,40 +28,17 @@
         </div>
       </div>
       <div class="header_bottom">
-        <div class="header_column"><span class="header_text">Edit</span></div>
-        <div class="header_column"><span class="header_text">찾기</span></div>
+        <div class="header__column"><span class="header_text">Edit</span></div>
+        <div class="header__column">
+          <span class="header_text_list">찾기</span>
+        </div>
       </div>
     </header>
 
-    <main class="friends">
-      <div class="search-bar">
-        <i class="fa fa-search"></i>
-        <input type="text" placeholder="친구찾기, 채팅목록, 플러스친구" />
-      </div>
 
-      <section class="friends__section">
-        <header class="friends__section-header">
-          <h6 class="friends__section-title">내 프로필</h6>
-        </header>
-        <div class="friends__section-rows">
-          <div class="friends__section-row">
-            <img src="" alt="" />
-            <span class="friends__section-name">니꼴라스</span>
-          </div>
-          <div class="friends__section-row">
-            <img src="" alt="" />
-            <span class="friends__section-name">Friends' Names Display</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="friends__section">
-        <header class="friends__section-header">
-          <h6 class="friends__section-title"></h6>
-        </header>
 
         <main class="find">
-          <section class="fine__options">
+          <section class="find__options">
             <div class="find__option">
               <i class="fa fa-address-book fa-lg"> </i>
 
@@ -72,7 +50,7 @@
               <span class="find__option-title"> QR 코드</span>
             </div>
             <div class="find__option">
-              <i class="fa fa-mobile fa-2x"> </i>
+              <i class="fa fa-mobile fa-1.5x"> </i>
 
               <span class="find__option-title"> shake</span>
             </div>
@@ -95,18 +73,8 @@
           </section>
         </main>
 
-        <div class="friends__section-rows">
-          <div class="friends__section-row">
-            <div class="friends__section-column">
-              <img src="" alt="" />
-              <span class="friends__section-name">린</span>
-            </div>
-            <span class="friends__section-tagline"
-              >Life is short, so live your life</span
-            >
-          </div>
-        </div>
-      </section>
+
+
     </main>
 
     <nav class="tab-bar">
@@ -117,9 +85,8 @@
         <i class="fa fa-comment"></i>
         <span class="tab-bar_title">채팅목록</span>
       </a>
-      <a href="find.html" class="tab-bar_tab">
-        <i class="fa fa-search"></i>
-        <span class="tab-bar_title  tab-bar_tab--selected">찾기</span>
+      <a href="find.html" class="tab-bar_tab tab-bar_tab--selected">
+        <i class="fa fa-search"></i> <span class="tab-bar_title  ">찾기</span>
       </a>
       <a href="more.html" class="tab-bar_tab">
         <i class="fa fa-ellipsis-h"></i>

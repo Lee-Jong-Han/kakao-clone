@@ -9,16 +9,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header_top">
-        <div class="header_column">
+        <div class="header__column">
           <i class="fa fa-plane" aria-hidden="true"></i>
           <i class="fa fa-wifi" aria-hidden="true"></i>
         </div>
-        <div class="header_column"><span class="header_time">18:38</span></div>
-        <div class="header_column">
+        <div class="header__column"><span class="header_time">18:38</span></div>
+        <div class="header__column">
           <i class="fa fa-moon-o" aria-hidden="true"></i>
           <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
           <span class="header_battery"
@@ -27,8 +28,10 @@
         </div>
       </div>
       <div class="header_bottom">
-        <div class="header_column"><span class="header_text">더보기</span></div>
-        <div class="header_column">
+        <div class="header__column_more">
+          <span class="header_text_more">더보기</span>
+        </div>
+        <div class="header__column_more">
           <span class="header_text"
             ><i class="fa fa-cog fa-lg" aria-hidden="true"></i
           ></span>
@@ -76,61 +79,63 @@
             <i class="fa fa-info-circle"></i>Learn more
           </span>
         </header>
-
-        <div class="plus-friends__item">
-          <i class="fa fa-cutlery"></i
-          ><span class="plus-friends__item-title">Order</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="fa fa-home"></i
-          ><span class="plus-friends__item-title">Store</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="fa fa-television"></i
-          ><span class="plus-friends__item-title">TV Channel/Radio</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="fa fa-pencil"></i
-          ><span class="plus-friends__item-title">Creation</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="fa fa-graduation-cap"></i
-          ><span class="plus-friends__item-title">Education</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="fa fa-university"></i
-          ><span class="plus-friends__item-title">Politics/Society</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="fa fa-krw"></i
-          ><span class="plus-friends__item-title">Finance</span>
-        </div>
-        <div class="plus-friends__item">
-          <i class="fa fa-video-camera"></i
-          ><span class="plus-friends__item-title">Movies/Music</span>
+        <div class="plus-friends__items">
+          <div class="plus-friends__item">
+            <i class="fa fa-cutlery"></i
+            ><span class="plus-friends__item-title">Order</span>
+          </div>
+          <div class="plus-friends__item">
+            <i class="fa fa-home"></i
+            ><span class="plus-friends__item-title">Store</span>
+          </div>
+          <div class="plus-friends__item">
+            <i class="fa fa-television"></i
+            ><span class="plus-friends__item-title">TV Channel/Radio</span>
+          </div>
+          <div class="plus-friends__item">
+            <i class="fa fa-pencil"></i
+            ><span class="plus-friends__item-title">Creation</span>
+          </div>
+          <div class="plus-friends__item">
+            <i class="fa fa-graduation-cap"></i
+            ><span class="plus-friends__item-title">Education</span>
+          </div>
+          <div class="plus-friends__item">
+            <i class="fa fa-university"></i
+            ><span class="plus-friends__item-title">Politics/Society</span>
+          </div>
+          <div class="plus-friends__item">
+            <i class="fa fa-krw"></i
+            ><span class="plus-friends__item-title">Finance</span>
+          </div>
+          <div class="plus-friends__item">
+            <i class="fa fa-video-camera"></i
+            ><span class="plus-friends__item-title">Movies/Music</span>
+          </div>
         </div>
       </section>
 
-      <section class="more__options">
-        <div class="more__option">
+      <section class="more__options_o">
+        <div class="more__option_o">
           <img
             src="images/kakaoStory.png"
             alt=""
-            class="more__options-image"
-          /><span class="more__options-title">Kakao Story</span>
+            class="more__options-image_o"
+          /><span class="more__options-title_o">Kakao Story</span>
         </div>
-        <div class="more__option">
-          <img src="images/path.png" alt="" class="more__options-image" /><span
-            class="more__options-title"
-            >Path</span
-          >
+        <div class="more__option_o">
+          <img
+            src="images/path.png"
+            alt=""
+            class="more__options-image_o"
+          /><span class="more__options-title_o">Path</span>
         </div>
-        <div class="more__option">
+        <div class="more__option_o">
           <img
             src="images/kakaoFriends.png"
             alt=""
-            class="more__options-image"
-          /><span class="more__options-title">kakao friends</span>
+            class="more__options-image_o"
+          /><span class="more__options-title_o">kakao friends</span>
         </div>
       </section>
     </main>

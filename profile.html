@@ -9,16 +9,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header top-header--transparent">
       <div class="header_top">
-        <div class="header_column">
+        <div class="header__column">
           <i class="fa fa-plane" aria-hidden="true"></i>
           <i class="fa fa-wifi" aria-hidden="true"></i>
         </div>
-        <div class="header_column"><span class="header_time">18:38</span></div>
-        <div class="header_column">
+        <div class="header__column"><span class="header_time">18:38</span></div>
+        <div class="header__column">
           <i class="fa fa-moon-o" aria-hidden="true"></i>
           <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
           <span class="header_battery"
@@ -27,12 +28,12 @@
         </div>
       </div>
       <div class="header_bottom">
-        <div class="header_column">
+        <div class="header__column">
           <a href="index.html"
             ><i class="fa fa-times" aria-hidden="true"></i
           ></a>
         </div>
-        <div class="header_column">
+        <div class="header__column_person">
           <i class="fa fa-user fa-lg" aria-hidden="true"></i>
         </div>
       </div>
@@ -40,21 +41,25 @@
 
     <main class="profile">
       <header class="profile__header">
-        <img src="images/avatar.jpg" alt="" />
-        <h3 class="profile__header-title">니꼴라스</h3>
-      </header>
-      <input type="text" placeholder="slRHffktm@gmail.com" />
-
-      <div class="profile__actions">
-        <div class="profile__action">
-          <span class="profile__action-circle"
-            ><i class="fa fa-comment fa-2x"></i></span
-          ><span class="profile__action-title">나와의 채팅</span>
+        <div class="abc">
+          <img src="images/avatar.jpg" alt="" />
+          <h3 class="profile__header-title">니꼴라스</h3>
         </div>
-        <div class="profile__action">
-          <span class="profile__action-circle"
-            ><i class="fa fa-pencil fa-2x"></i></span
-          ><span class="profile__action-title">프로필 수정</span>
+      </header>
+      <div class="profile__container">
+        <input type="text" placeholder="slRHffktm@gmail.com" />
+
+        <div class="profile__actions">
+          <div class="profile__action">
+            <span class="profile__action-circle"
+              ><i class="fa fa-comment "></i></span
+            ><span class="profile__action-title">나와의 채팅</span>
+          </div>
+          <div class="profile__action">
+            <span class="profile__action-circle"
+              ><i class="fa fa-pencil "></i></span
+            ><span class="profile__action-title">프로필 수정</span>
+          </div>
         </div>
       </div>
     </main>
